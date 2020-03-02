@@ -49,11 +49,11 @@ section h1{
 	border:2px black solid;
 	border-style: double;
 	border-radius: 10px;
-	box-shadow:4px, 4px;
+    box-shadow:4px, 4px;
+    color:#800000;
 }
 section h2{
-	font-size:130%;
-	color:#800000;
+	font-size:120%;
 	padding-top: .5em;
 	padding-bottom: .25em;
 }
@@ -107,8 +107,7 @@ aside img{
 article{
 	padding-top:.5em;
 	padding-bottom:.5em;
-	border-top: 2px #800000;
-	border-bottom: 2px #800000;
+
 }
 article img{
 	float:right;
