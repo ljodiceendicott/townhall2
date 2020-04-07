@@ -3,10 +3,19 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>San Joaquin Valley Town Hall</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    	<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+		</script>
 </head>
 
 <body>
@@ -16,6 +25,7 @@
 		<h3>Celebrating our <em class="shadow"> 75<sup>th</sup></em>Year</h3>
 
 	</header>
+	<nav id="mobile_menu"></nav>
 	<nav id="nav_menu">
 		<ul>
 			<li><a href="index.html" class="current">Home</a></li>
@@ -64,8 +74,8 @@ What's 75 million years old and brand spanking new? A teenage Utahceratops! Come
 </section>
 <aside>
 <h2>Guest Speakers</h2>
-
-<h3>
+<div>
+	<h3>
 October<br>
 <a href="speakers/toobin.html"> Jeffrey Toobin</a><br>
 </h3>
@@ -84,7 +94,7 @@ January<br>
 February<br>
 <a href="speakers/sampson.html">Scott Sampson</a></h3>
 <img src="images/sampson75.jpg" alt="sampson" height=75>
-
+</div>
 </aside>
 	</main>
 	<footer>
